@@ -1,18 +1,18 @@
 ###课后作业
 | 题号  | 名称  | 难度  | 分类  |
 | ------------ | ------------ | ------------ | ------------ |
-| [64](https://leetcode-cn.com/problems/minimum-path-sum/)  | [最小路径和](https://github.com/lswzzz/algorithm012/blob/master/Week_06/minimum-path-sum.java)  | 中等  | 动态规划  |
-| [91](https://leetcode-cn.com/problems/decode-ways/)  | [解码方法](https://github.com/lswzzz/algorithm012/blob/master/Week_06/decode-ways.java)  | 中等  | 动态规划  |
-| [221](https://leetcode-cn.com/problems/maximal-square/)  | [最大正方形](https://github.com/lswzzz/algorithm012/blob/master/Week_06/maximal-square.java)  | 中等  | 动态规划  |
-| [621](https://leetcode-cn.com/problems/task-scheduler/)  | [任务调度器](https://github.com/lswzzz/algorithm012/blob/master/Week_06/task-scheduler.java)  | 中等  | 动态规划  |
-| [647](https://leetcode-cn.com/problems/palindromic-substrings/)  | [回文子串](https://github.com/lswzzz/algorithm012/blob/master/Week_06/palindromic-substrings.java)  | 中等  | 动态规划  |
-| [32](https://leetcode-cn.com/problems/longest-valid-parentheses/)  | [最长有效括号](https://github.com/lswzzz/algorithm012/blob/master/Week_06/longest-valid-parentheses.java)  | 困难  | 动态规划  |
-| [72](https://leetcode-cn.com/problems/edit-distance/)  | [编辑距离](https://github.com/lswzzz/algorithm012/blob/master/Week_06/edit-distance.java)  | 困难  | 动态规划  |
-| [403](https://leetcode-cn.com/problems/frog-jump/)  | [青蛙过河](https://github.com/lswzzz/algorithm012/blob/master/Week_06/frog-jump.java)  | 困难  | 动态规划  |
-| [410](https://leetcode-cn.com/problems/split-array-largest-sum/)  | [分割数组的最大值](https://github.com/lswzzz/algorithm012/blob/master/Week_06/split-array-largest-sum.java)  |困难   | 动态规划  |   |
-| [552](https://leetcode-cn.com/problems/student-attendance-record-ii/)  | [学生出勤记录 II](https://github.com/lswzzz/algorithm012/blob/master/Week_06/student-attendance-record-ii.java)  |困难   | 动态规划  |   |
-| [76](https://leetcode-cn.com/problems/minimum-window-substring/)  | [最小覆盖子串](https://github.com/lswzzz/algorithm012/blob/master/Week_06/minimum-window-substring.java)  |困难   | 动态规划  |   |
-| [321](https://leetcode-cn.com/problems/burst-balloons/)  | [戳气球](https://github.com/lswzzz/algorithm012/blob/master/Week_06/burst-balloons.java)  |困难   | 动态规划  |   |
+| [70](https://leetcode-cn.com/problems/climbing-stairs/)  | [爬楼梯](https://github.com/lswzzz/algorithm012/blob/master/Week_07/climbing-stairs.java)  | 中等  |   |
+| [208](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)  | [实现 Trie (前缀树)](https://github.com/lswzzz/algorithm012/blob/master/Week_07/implement-trie-prefix-tree.java)  | 中等  |   |
+| [547](https://leetcode-cn.com/problems/friend-circles/)  | [朋友圈](https://github.com/lswzzz/algorithm012/blob/master/Week_07/friend-circles.java)  | 中等  |   |
+| [200](https://leetcode-cn.com/problems/number-of-islands/)  | [岛屿数量](https://github.com/lswzzz/algorithm012/blob/master/Week_07/number-of-islands.java)  | 中等  |   |
+| [130](https://leetcode-cn.com/problems/surrounded-regions/)  | [被围绕的区域](https://github.com/lswzzz/algorithm012/blob/master/Week_07/surrounded-regions.java)  | 中等  |   |
+| [36](https://leetcode-cn.com/problems/valid-sudoku/)  | [有效的数独](https://github.com/lswzzz/algorithm012/blob/master/Week_07/valid-sudoku.java)  | 中等  |   |
+| [22](https://leetcode-cn.com/problems/generate-parentheses/)  | [括号生成](https://github.com/lswzzz/algorithm012/blob/master/Week_07/generate-parentheses.java)  | 中等  |   |
+| [127](https://leetcode-cn.com/problems/word-ladder/)  | [单词接龙](https://github.com/lswzzz/algorithm012/blob/master/Week_07/word-ladder.java)  | 中等  |   |
+| [433](https://leetcode-cn.com/problems/minimum-genetic-mutation/)  | [最小基因变化](https://github.com/lswzzz/algorithm012/blob/master/Week_07/minimum-genetic-mutation.java)  | 中等   |   |
+| [212](https://leetcode-cn.com/problems/word-search-ii/)  | [单词搜索 II](https://github.com/lswzzz/algorithm012/blob/master/Week_07/word-search-ii.java)  |困难   |   |
+| [51](https://leetcode-cn.com/problems/n-queens/)  | [N皇后](https://github.com/lswzzz/algorithm012/blob/master/Week_07/n-queens.java)  |困难   |   |
+| [37](https://leetcode-cn.com/problems/sudoku-solver/)  | [解数独](https://github.com/lswzzz/algorithm012/blob/master/Week_07/sudoku-solver.java)  |困难   |   |   |
 
 BFS代码模板:
 ```java
