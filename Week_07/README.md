@@ -14,32 +14,43 @@
 | [51](https://leetcode-cn.com/problems/n-queens/)  | [N皇后](https://github.com/lswzzz/algorithm012/blob/master/Week_07/n-queens.java)  |困难   |   |
 | [37](https://leetcode-cn.com/problems/sudoku-solver/)  | [解数独](https://github.com/lswzzz/algorithm012/blob/master/Week_07/sudoku-solver.java)  |困难   |   |   |
 
-BFS代码模板:
+传统的BFS就是从起点开始向四周扩散，遇到重点时停止，而双向BFS则是从起点和终点同时开始扩散，当两边有交集的时候停止。
+双向BFS会更快的原因在于传统BFS会把整棵树的节点都搜索一遍，最后找到target，而双向BFS只遍历了半颗树就会出现交集，因此找到了最短距离。
+但双向BFS也有局限，必须先知道终点在哪里。
+双向BFS代码模板:
 ```java
-public void BFS(int start, int end)
+public String doubleBFS(String start, String end)
 {
-	HashSet<Integer> set1 = new HashSet<Integer>();
-	HashSet<Integer> set2 = new HashSet<Integer>();
-	set1.add(start);
-	set2.add(end);
-	while(!set1.isEmpty()&&!set2.isEmpty())
+	Queue<String> queue1 = new LinkedList<String>();
+	Queue<String> queue2 = new LinkedList<String>();
+	Set<String> visited = new HashSet<String>();
+	queue1.add(start);
+	queue2.add(end);
+	while(!queue1.isEmpty()&&!queue2.isEmpty())
 	{
-		for(int val : set1)
-		{
-			if(set2.contains(val))
+		Queue<String> temp = new LinkedList<String>();
+		for(String cur : queue1){
+			//判断是否结尾
+			if(queue2.contains(cur))
 			{
-				return;
+				return cur;
 			}
-			var nodes = process(val);
-			set1.add(nodes);
+			visited.add(cur);
+			//将接下来的相邻节点加入集合中
+			String[] words = process(cur);
+			for(String word : words)
+			{
+				if(!visited.contains(word))
+				{
+					temp.add(word);
+				}
+			}
 		}
-		if(set1.size()>set2.size())
-		{
-			HashSet<Integer> tp = set1;
-			set1 = set2;
-			set2 = tp;
-		}
+		//每次迭代后交换queue1和queue2
+		queue1 = queue2;
+		queue2 = temp;
 	}
+	return "";
 }
 ```
 
