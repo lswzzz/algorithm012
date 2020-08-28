@@ -1,18 +1,16 @@
 ###课后作业
 | 题号  | 名称  | 难度  | 分类  |
 | ------------ | ------------ | ------------ | ------------ |
-| [70](https://leetcode-cn.com/problems/climbing-stairs/)  | [爬楼梯](https://github.com/lswzzz/algorithm012/blob/master/Week_07/climbing-stairs.java)  | 中等  |   |
-| [208](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)  | [实现 Trie (前缀树)](https://github.com/lswzzz/algorithm012/blob/master/Week_07/implement-trie-prefix-tree.java)  | 中等  |   |
-| [547](https://leetcode-cn.com/problems/friend-circles/)  | [朋友圈](https://github.com/lswzzz/algorithm012/blob/master/Week_07/friend-circles.java)  | 中等  |   |
-| [200](https://leetcode-cn.com/problems/number-of-islands/)  | [岛屿数量](https://github.com/lswzzz/algorithm012/blob/master/Week_07/number-of-islands.java)  | 中等  |   |
-| [130](https://leetcode-cn.com/problems/surrounded-regions/)  | [被围绕的区域](https://github.com/lswzzz/algorithm012/blob/master/Week_07/surrounded-regions.java)  | 中等  |   |
-| [36](https://leetcode-cn.com/problems/valid-sudoku/)  | [有效的数独](https://github.com/lswzzz/algorithm012/blob/master/Week_07/valid-sudoku.java)  | 中等  |   |
-| [22](https://leetcode-cn.com/problems/generate-parentheses/)  | [括号生成](https://github.com/lswzzz/algorithm012/blob/master/Week_07/generate-parentheses.java)  | 中等  |   |
-| [127](https://leetcode-cn.com/problems/word-ladder/)  | [单词接龙](https://github.com/lswzzz/algorithm012/blob/master/Week_07/word-ladder.java)  | 中等  |   |
-| [433](https://leetcode-cn.com/problems/minimum-genetic-mutation/)  | [最小基因变化](https://github.com/lswzzz/algorithm012/blob/master/Week_07/minimum-genetic-mutation.java)  | 中等   |   |
-| [212](https://leetcode-cn.com/problems/word-search-ii/)  | [单词搜索 II](https://github.com/lswzzz/algorithm012/blob/master/Week_07/word-search-ii.java)  |困难   |   |
-| [51](https://leetcode-cn.com/problems/n-queens/)  | [N皇后](https://github.com/lswzzz/algorithm012/blob/master/Week_07/n-queens.java)  |困难   |   |
-| [37](https://leetcode-cn.com/problems/sudoku-solver/)  | [解数独](https://github.com/lswzzz/algorithm012/blob/master/Week_07/sudoku-solver.java)  |困难   |   |   |
+| [191](https://leetcode-cn.com/problems/number-of-1-bits/)  | [位1的个数](https://github.com/lswzzz/algorithm012/blob/master/Week_08/number-of-1-bits.java)  | 简单  |   |
+| [231](https://leetcode-cn.com/problems/power-of-two/)  | [2的幂](https://github.com/lswzzz/algorithm012/blob/master/Week_08/power-of-two.java)  | 简单  |   |
+| [190](https://leetcode-cn.com/problems/reverse-bits/)  | [颠倒二进制位](https://github.com/lswzzz/algorithm012/blob/master/Week_08/reverse-bits.java)  | 简单  |   |
+| [1122](https://leetcode-cn.com/problems/relative-sort-array/)  | [数组的相对排序](https://github.com/lswzzz/algorithm012/blob/master/Week_08/relative-sort-array.java)  | 简单  |   |
+| [242](https://leetcode-cn.com/problems/valid-anagram/)  | [有效的字母异位词](https://github.com/lswzzz/algorithm012/blob/master/Week_08/valid-anagram.java)  | 简单  |   |
+| [146](https://leetcode-cn.com/problems/lru-cache/)  | [LRU缓存机制](https://github.com/lswzzz/algorithm012/blob/master/Week_08/lru-cache.java)  | 中等  |   |
+| [56](https://leetcode-cn.com/problems/merge-intervals/)  | [合并区间](https://github.com/lswzzz/algorithm012/blob/master/Week_08/merge-intervals.java)  | 中等  |   |
+| [51](https://leetcode-cn.com/problems/n-queens/)  | [N皇后](https://github.com/lswzzz/algorithm012/blob/master/Week_08/n-queens.java)  | 困难  |   |
+| [52](https://leetcode-cn.com/problems/n-queens-ii/)  | [N皇后 II](https://github.com/lswzzz/algorithm012/blob/master/Week_08/n-queens-ii.java)  | 困难   |   |
+| [493](https://leetcode-cn.com/problems/reverse-pairs/)  | [翻转对](https://github.com/lswzzz/algorithm012/blob/master/Week_08/reverse-pairs.java)  |困难   |   |   |
 
 https://pandao.github.io/editor.md/en.html
 冒泡排序：
